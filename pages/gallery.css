@@ -1,3 +1,86 @@
-h1 {
-  color:aqua;
+/*
+CSS for header
+*/
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-right: 40px;
 }
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: gainsboro;
+}
+
+.top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-header img {
+  max-width: 100px;
+  height: auto;
+  padding: 0;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+header > p {
+  margin-top: 100px;
+  text-align: center;
+  color:white;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 90px;
+}
+
+header {
+  background-image: url("../imgs/gallery.png");
+  height: 600px;
+  background-size: 100% 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar ul li a {
+  transition: all .3s;
+}
+
+.navbar ul li a:after {
+  text-align: left;
+  margin: 0;
+  opacity: 0;
+}
+.navbar ul li a:hover {
+  color:gray;
+  z-index: 1;
+}
+.navbar ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+/*
+End of CSS for header
+*/
