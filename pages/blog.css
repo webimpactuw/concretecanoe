@@ -1,3 +1,7 @@
+/*
+CSS for header
+*/
+
 .navbar ul {
   list-style-type: none;
   padding: 0;
@@ -43,7 +47,7 @@ header > p {
   text-align: center;
   color:white;
   font-family: 'Encode Sans', sans-serif;
-  font-size: 70px;
+  font-size: 90px;
 }
 
 header {
@@ -76,3 +80,7 @@ body {
   -moz-animation: fill 1s forwards;
   opacity: 1;
 }
+
+/*
+End of CSS for header
+*/
