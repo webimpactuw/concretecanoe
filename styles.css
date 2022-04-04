@@ -28,6 +28,23 @@ CSS for header
   background-color: gainsboro;
 }
 
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolution;
+}
+
+.dropdown-content a {
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 .top-header {
   display: flex;
   flex-direction: row;
