@@ -84,3 +84,23 @@ body {
 /*
 End of CSS for header
 */
+
+/*
+Start of CSS for home page
+*/
+.subheader{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  color:white;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 25px;
+}
+
+.homeheader{
+  margin-top: 5px;
+  text-align: center;
+  color:white;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 90px;
+}
