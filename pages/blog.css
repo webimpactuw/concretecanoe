@@ -85,3 +85,23 @@ body {
 End of CSS for header
 */
 
+/*
+  Footer CSS
+*/
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 83px;
+  text-indent: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #333333;
+}
+
+footer p {
+  margin-top: 29px;
+  color: #FFFFFF;
+}
+/*
+  End of Footer CSS
+*/
