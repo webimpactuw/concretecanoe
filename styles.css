@@ -28,21 +28,20 @@ CSS for header
   background-color: gainsboro;
 }
 
-li.dropdown {
-  display: inline-block;
-}
-
 .dropdown-content {
   display: none;
-  position: absolution;
+  position: absolute;
 }
 
 .dropdown-content a {
-  display: block;
+  float: none;
+  overflow: hidden;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .top-header {
@@ -89,7 +88,6 @@ body {
 .navbar ul li a:hover {
   color:gray;
   z-index: 1;
-}
 .navbar ul li a:hover:after {
   z-index: -10;
   animation: fill 1s forwards;
