@@ -84,3 +84,26 @@ body {
 /*
 End of CSS for header
 */
+
+main {
+  background-color: black;
+}
+
+.p1 {
+  width: 92%;
+  margin-top: 5%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 3%;
+  /* align-self: auto; */
+  /* object-fit: scale-down; */
+  gap: 3%;
+}
+
+.p1 img {
+  width: 30%;
+  height: auto;
+  cursor: pointer;
+}
