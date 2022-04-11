@@ -84,3 +84,12 @@ body {
 /*
 End of CSS for header
 */
+
+.description {
+  max-width: 100%;
+  margin-top: 3%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: black;
+}
