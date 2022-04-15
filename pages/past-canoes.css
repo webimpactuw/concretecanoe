@@ -89,7 +89,7 @@ End of CSS for header
   display: flex;
   justify-content: space-between;
   color: #fff;
-  background: #111;
+  background: rgb(1,0,0,1);
   position: relative;
   text-align: left;
   font-size: 35px;
@@ -100,11 +100,15 @@ End of CSS for header
 .sockeye .trial{
   display: flex;
   justify-content: left; 
-  /* z-index: -1; */
   flex-direction: column;
+  position: relative;
+  left: 50px;
 }
 .sockeye .trial p{
   color:#fff;
+  position: relative;
+  /* left: 10px; */
+  font-size: 28px;
 }
 .sockeye .sockeye-content{
   background-image:
