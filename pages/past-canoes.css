@@ -139,7 +139,7 @@ End of CSS for header
   font-family: 'Ubuntu', sans-serif;
   margin: 0; 
   padding: 0;
-  max-height: 550px;
+  max-height: 500px;
 }
 .incalmo .trial{
   display: flex;
@@ -180,7 +180,7 @@ End of CSS for header
   font-family: 'Ubuntu', sans-serif;
   margin: 0;
   padding: 0;
-  max-height: 550px;
+  max-height: 500px;
 }
 .skybeam .trial{
   display: flex;
@@ -219,11 +219,11 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: #333333;
   margin: 0;
-  padding: 0;
+  padding: 15px 23px;
 }
 
 footer p {
-  /* margin-top: 29px; */
+  margin-top: 29px;
   color: #FFFFFF;
 }
 /*
