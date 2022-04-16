@@ -125,6 +125,47 @@ End of CSS for header
   max-height: 510px;
 }
 
+/*Incalmo Section Start */
+.incalmo{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background: rgb(1,0,0,1);
+  position: relative;
+  text-align: left;
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 60px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0; 
+  padding: 0;
+  max-height: 550px;
+}
+.incalmo .trial{
+  display: flex;
+  justify-content: left; 
+  flex-direction: column;
+  position: relative;
+  right: 25px;
+}
+.incalmo .trial p{
+  color:#fff;
+  position: relative;
+  /* left: 10px;  */
+  font-size: 25px;
+}
+.incalmo .incalmo-content{
+  background-image:
+  linear-gradient(to right, rgb(0.1,0,0,0),rgb(1,0,0,1)),
+  url('../imgs/Incalmo.png');
+  width: 450%; 
+  height: 600px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 20px;
+  max-height: 510px;
+}
+
 /*
   Footer CSS
 */
