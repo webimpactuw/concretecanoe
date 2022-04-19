@@ -153,6 +153,15 @@ Start of CSS for home page
   font-size: 48px
 }
 
+.YellowTitle{
+  margin-top: 18px;
+  text-align: center;
+  color: #B7A57A;
+  font-weight: bolder;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 48px
+}
+
 .BlackTitle{
   margin-top: 18px;
   text-align: center;
@@ -198,13 +207,22 @@ font-size: 20px
   font-size: 20px
   }
 
+.YellowBody{
+  margin-top: -30px;
+  text-align: center;
+  color:#B7A57A ;
+  font-weight: lighter;
+  font-family: 'open Sans', sans-serif;
+  font-size: 20px
+}
+
 .BlackBody{
-    margin-top: 0px;
-    text-align: left;
-    color:Black ;
-    font-weight: lighter;
-    font-family: 'open Sans', sans-serif;
-    font-size: 20px
+  margin-top: 0px;
+  text-align: left;
+  color:Black ;
+  font-weight: lighter;
+  font-family: 'open Sans', sans-serif;
+  font-size: 20px
 
 
 }
@@ -230,6 +248,19 @@ font-size: 20px
   font: 'open Sans', sans-serif;
   font-size: 18px;
   border: #4B2E83 solid 2px;
+  margin-right: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.YellowButton{
+  background-color: #FFFFFF;
+  color: #B7A57A;
+  width: 222px;
+  height: 66px;
+  font: 'open Sans', sans-serif;
+  font-size: 18px;
+  border: #B7A57A solid 2px;
   margin-right: 25px;
   cursor: pointer;
   margin-bottom: 10px;
