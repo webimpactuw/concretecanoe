@@ -28,6 +28,22 @@ CSS for header
   background-color: gainsboro;
 }
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content a {
+  float: none;
+  overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .top-header {
   display: flex;
   flex-direction: row;
@@ -83,4 +99,191 @@ body {
 
 /*
 End of CSS for header
+*/
+
+/*
+Start of CSS for home page
+*/
+.subheader{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  color:white;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 25px;
+}
+
+.homeheader{
+  margin-top: 5px;
+  text-align: center;
+  color:white;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 90px
+}
+.Buttons{
+  text-align: center;
+}
+
+.width{
+  max-width: 778px;
+  margin: 0px auto;
+}
+
+.line{
+  max-width: 778px;
+  margin-top: 40px; 
+  margin-bottom: 40px;
+}
+
+.GoldTitle{
+  margin-top: 18px;
+  text-align: center;
+  color:#85754D ;
+  font-weight: bolder;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 48px
+}
+
+.PurpleTitle{
+  margin-top: 18px;
+  text-align: center;
+  color: #4B2E83;
+  font-weight: bolder;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 48px
+}
+
+.YellowTitle{
+  margin-top: 18px;
+  text-align: center;
+  color: #B7A57A;
+  font-weight: bolder;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 48px
+}
+
+.BlackTitle{
+  margin-top: 18px;
+  text-align: center;
+  color: Black;
+  font-weight: bolder;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 48px
+}
+
+.Goldsubtitle{
+  margin-top: 18px;
+  text-align: center;
+  color:#85754D ;
+  font-weight: bolder;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 24px
+}
+
+.Blacksubtitle{
+  margin-top: 18px;
+  text-align:left;
+  color:Black ;
+  font-weight: bolder;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 24px
+}
+
+.GoldBody{
+margin-top: -30px;
+text-align: center;
+color:#85754D ;
+font-weight: lighter;
+font-family: 'open Sans', sans-serif;
+font-size: 20px
+}
+
+.PurpleBody{
+  margin-top: -30px;
+  text-align: center;
+  color:#4B2E83 ;
+  font-weight: lighter;
+  font-family: 'open Sans', sans-serif;
+  font-size: 20px
+  }
+
+.YellowBody{
+  margin-top: -30px;
+  text-align: center;
+  color:#B7A57A ;
+  font-weight: lighter;
+  font-family: 'open Sans', sans-serif;
+  font-size: 20px
+}
+
+.BlackBody{
+  margin-top: 0px;
+  text-align: left;
+  color:Black ;
+  font-weight: lighter;
+  font-family: 'open Sans', sans-serif;
+  font-size: 20px
+
+
+}
+
+.GoldButton{
+  background-color: #FFFFFF;
+  color: #85754D;
+  width: 222px;
+  height: 66px;
+  font: 'open Sans', sans-serif;
+  font-size: 18px;
+  border: #85754D solid 2px;
+  margin-right: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.PurpleButton{
+  background-color: #FFFFFF;
+  color: #4B2E83;
+  width: 222px;
+  height: 66px;
+  font: 'open Sans', sans-serif;
+  font-size: 18px;
+  border: #4B2E83 solid 2px;
+  margin-right: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.YellowButton{
+  background-color: #FFFFFF;
+  color: #B7A57A;
+  width: 222px;
+  height: 66px;
+  font: 'open Sans', sans-serif;
+  font-size: 18px;
+  border: #B7A57A solid 2px;
+  margin-right: 25px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+
+/*
+  Footer CSS
+*/
+footer {
+  /*position: absolute;*/
+  bottom: 0;
+  width: 100%;
+  height: 83px;
+  text-indent: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #333333;
+}
+
+footer p {
+  margin-top: 29px;
+  color: #FFFFFF;
+}
+/*
+  End of Footer CSS
 */
