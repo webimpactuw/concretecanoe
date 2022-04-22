@@ -85,6 +85,25 @@ body {
 End of CSS for header
 */
 
+main {
+  background-color: black;
+}
+
+.p1 {
+  width: 99%;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+img {
+  width: 30%;
+  height: auto;
+  cursor: pointer;
+}
 /*
   Footer CSS
 */
