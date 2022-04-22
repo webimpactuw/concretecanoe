@@ -90,19 +90,16 @@ main {
 }
 
 .p1 {
-  width: 92%;
-  margin-top: 5%;
+  width: 99%;
+  justify-content: center;
   margin: auto;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 3%;
-  /* align-self: auto; */
-  /* object-fit: scale-down; */
-  gap: 3%;
+  gap: 5%;
 }
 
-.p1 img {
+img {
   width: 30%;
   height: auto;
   cursor: pointer;

@@ -93,3 +93,14 @@ End of CSS for header
   font-size: 20px;
   color: black;
 }
+
+.donors {
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 3%;
+  gap: 5%;
+}
