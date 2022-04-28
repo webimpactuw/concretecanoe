@@ -105,3 +105,19 @@ footer p {
 /*
   End of Footer CSS
 */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content a {
+  float: none;
+  overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
