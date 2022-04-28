@@ -86,6 +86,43 @@ End of CSS for header
 */
 
 /*
+ Body CSS
+*/
+
+div.outreach-block {
+  background-image: url("../imgs/Outreach.png");
+  height: 527px; object-fit: cover;
+  background-position: top right;
+  /*background-repeat: no-repeat;*/
+  background-size: 800px 527px;
+}
+
+p.outreach-block-text  {
+  float: left;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  text-size-adjust: none;
+  font-size: 20px;
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 800px;
+}
+
+h1.outreach-block-head  {
+  float: left;
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  margin-left: 60px;
+}
+
+/*
+ End of Body CSS
+*/
+
+
+/*
   Footer CSS
 */
 footer {
