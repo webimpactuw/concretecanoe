@@ -148,7 +148,8 @@ End of CSS for header
 .structural .rightside .title{
   text-align: right;
   margin-bottom: 6px;
-  margin-top: 50px;
+  margin-top: 40px;
+  padding-right: 18px;
   font-size: 42px;
 }
 
@@ -163,6 +164,7 @@ End of CSS for header
   color:#fff;
   position: relative;
   text-align: right;
+  padding-right: 20px;
   font-size: 25px;
 }
 .structural .structural-desc{
@@ -194,7 +196,7 @@ End of CSS for header
 }
 .hull .leftside .title{
   margin-bottom: 6px;
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 42px;
 }
 .hull .leftside{
