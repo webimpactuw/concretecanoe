@@ -29,20 +29,19 @@ CSS for header
 }
 
 .dropdown-content {
-  position: absolute;
   display: none;
 }
 
 .dropdown-content a {
   float: none;
-  overflow: hidden;
-  text-align: start;
+  line-height: 8px;
   height: 5px;
   width: 92px;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+  position: absolute;
 }
 
 .top-header {
