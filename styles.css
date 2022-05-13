@@ -29,19 +29,20 @@ CSS for header
 }
 
 .dropdown-content {
-  display: none;
   position: absolute;
+  display: none;
 }
 
 .dropdown-content a {
   float: none;
   overflow: hidden;
+  text-align: start;
+  height: 5px;
+  width: 92px;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 
 .top-header {
@@ -223,8 +224,6 @@ font-size: 20px
   font-weight: lighter;
   font-family: 'open Sans', sans-serif;
   font-size: 20px
-
-
 }
 
 .GoldButton{
@@ -271,13 +270,15 @@ font-size: 20px
   Footer CSS
 */
 footer {
-  /*position: absolute;*/
+  position: relative;
   bottom: 0;
-  width: 100%;
+  max-width: 100%;
   height: 83px;
   text-indent: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: #333333;
+  margin: 0;
+  padding: 15px 23px;
 }
 
 footer p {

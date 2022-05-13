@@ -2,6 +2,7 @@
 CSS for header
 */
 
+
 .navbar ul {
   list-style-type: none;
   padding: 0;
@@ -26,6 +27,22 @@ CSS for header
 /* Change the link color to #111 (black) on hover */
 .navbar li a:hover {
   background-color: gainsboro;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content a {
+  float: none;
+  overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .top-header {
