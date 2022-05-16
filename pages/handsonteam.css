@@ -101,44 +101,129 @@ End of CSS for header
 */
 
 /*
-  Body CSS
+ Body CSS
 */
 
+/* PADDLING */
 div.paddling-block {
-  background-image: url("../imgs/paddling.png");
-  height: 527px; object-fit: cover;
+  background: rgb(1,0,0,1);
+  background-image: 
+  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url("../imgs/Paddling-min.png");
   background-position: top right;
-}
-
-p.paddling-block-text  {
-  float: left;
-  color:white;
-  font-family: 'Open Sans', sans-serif;
-  text-size-adjust: none;
-  font-size: 20px;
-  margin-top: 60px;
-  margin-left: 60px;
-  margin-right: 800px;
+  height: 527px;
+  background-size: 70% 100%;
+  color: white;
+  padding: 20px;
+  max-height: 527px;
+  background-repeat: no-repeat;
 }
 
 h1.paddling-block-head  {
-  float: left;
   color:white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
   font-size: 48px;
   margin-left: 60px;
+  margin-top: 60px;
+}
+
+p.paddling-block-text  {
+  float: left;
+  color:white;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  text-size-adjust: none;
+  font-size: 20px;
+  margin-left: 60px;
+  max-width: 550px;
+  max-height: 280px;
+}
+
+/* CONSTRUCTION */ 
+div.construction-block {
+  background: rgb(1,0,0,1);
+  background-image: 
+  linear-gradient(to left, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url("../imgs/Construction-min.png");
+  background-position: top left;
+  height: 500px;
+  background-size: 60% 110%;
+  color: white;
+  padding: 20px;
+  max-height: 500px;
+  background-repeat: no-repeat;
+}
+
+h1.construction-block-head  {
+  position: relative;
+  /*float: right;*/
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+p.construction-block-text  {
+  float: right;
+  color:white;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  text-size-adjust: none;
+  font-size: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  max-width: 550px;
+  max-height: 162px;
+}
+
+/* AESTHETICS */
+div.aesthetics-block {
+  background: rgb(1,0,0,1);
+  background-image: 
+  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url("../imgs/Aesthetics-min.png");
+  background-position: top right;
+  height: 411px;
+  background-size: 60% 120%;
+  color: white;
+  padding: 20px;
+  max-height: 411px;
+  background-repeat: no-repeat;
+}
+
+h1.aesthetics-block-head  {
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+
+p.aesthetics-block-text  {
+  float: left;
+  color:white;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  text-size-adjust: none;
+  font-size: 20px;
+  margin-left: 60px;
+  max-width: 550px;
+  max-height: 189px;
 }
 
 /*
-End of CSS for body
+ End of Body CSS
 */
 
 /*
   Footer CSS
 */
 footer {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   width: 100%;
   height: 83px;

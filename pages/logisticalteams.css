@@ -105,27 +105,22 @@ End of CSS for header
  Body CSS
 */
 
+/* OUTREACH */
 div.outreach-block {
-  background-image: url("../imgs/Outreach.png");
-  height: 527px; object-fit: cover;
+  background: rgb(1,0,0,1);
+  background-image: 
+  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url("../imgs/Outreach-min.png");
   background-position: top right;
-  /*background-repeat: no-repeat;*/
-  background-size: 800px 527px;
-}
-
-p.outreach-block-text  {
-  float: left;
-  color:white;
-  font-family: 'Open Sans', sans-serif;
-  text-size-adjust: none;
-  font-size: 20px;
-  margin-top: 60px;
-  margin-left: 60px;
-  margin-right: 800px;
+  height: 500px;
+  background-size: 70% 100%;
+  color: white;
+  padding: 20px;
+  max-height: 500px;
+  background-repeat: no-repeat;
 }
 
 h1.outreach-block-head  {
-  float: left;
   color:white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
@@ -133,16 +128,100 @@ h1.outreach-block-head  {
   margin-left: 60px;
 }
 
+p.outreach-block-text  {
+  float: left;
+  color:white;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  text-size-adjust: none;
+  font-size: 20px;
+  margin-left: 60px;
+  max-width: 550px;
+  max-height: 268px;
+}
+
+/* COMPETITION */ 
+div.competition-block {
+  background: rgb(1,0,0,1);
+  background-image: 
+  linear-gradient(to left, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url("../imgs/logisticalteamsgroup-min.png");
+  background-position: top left;
+  height: 500px;
+  background-size: 60% 110%;
+  color: white;
+  padding: 20px;
+  max-height: 500px;
+  background-repeat: no-repeat;
+}
+
+h1.competition-block-head  {
+  position: relative;
+  /*float: right;*/
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  margin-left: 60px;
+}
+
+p.competition-block-text  {
+  float: right;
+  color:white;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  text-size-adjust: none;
+  font-size: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  max-width: 550px;
+  max-height: 353px;
+}
+
+/*FINANCE*/
+div.finance-block {
+  background: rgb(1,0,0,1);
+  background-image: 
+  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url("../imgs/Finance-min.png");
+  background-position: top right;
+  height: 411px;
+  background-size: 60% 120%;
+  color: white;
+  padding: 20px;
+  max-height: 411px;
+  background-repeat: no-repeat;
+}
+
+h1.finance-block-head  {
+  color:white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  margin-left: 60px;
+}
+
+p.finance-block-text  {
+  float: left;
+  color:white;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  text-size-adjust: none;
+  font-size: 20px;
+  margin-left: 60px;
+  max-width: 550px;
+  max-height: 168px;
+}
+
 /*
  End of Body CSS
 */
-
 
 /*
   Footer CSS
 */
 footer {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   width: 100%;
   height: 83px;
