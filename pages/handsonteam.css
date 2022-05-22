@@ -108,7 +108,7 @@ End of CSS for header
 div.paddling-block {
   background: rgb(1,0,0,1);
   background-image: 
-  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  linear-gradient(to right, rgb(1,0,0,1) 20%,rgb(0.1,0,0,0)),
   url("../imgs/Paddling-min.png");
   background-position: top right;
   height: 527px;
@@ -121,7 +121,7 @@ div.paddling-block {
 
 h1.paddling-block-head  {
   color:white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Encode Sans', sans-serif;
   font-weight: 800;
   font-size: 48px;
   margin-left: 60px;
@@ -144,11 +144,11 @@ p.paddling-block-text  {
 div.construction-block {
   background: rgb(1,0,0,1);
   background-image: 
-  linear-gradient(to left, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  linear-gradient(to left, rgb(1,0,0,1) 5%,rgb(0.1,0,0,0)),
   url("../imgs/Construction-min.png");
   background-position: top left;
-  height: 500px;
-  background-size: 60% 110%;
+  height: 456px;
+  background-size: 55% 110%;
   color: white;
   padding: 20px;
   max-height: 500px;
@@ -156,13 +156,12 @@ div.construction-block {
 }
 
 h1.construction-block-head  {
-  position: relative;
-  /*float: right;*/
+  text-align: right;
   color:white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Encode Sans', sans-serif;
   font-weight: 800;
   font-size: 48px;
-  margin-left: 60px;
+  margin-right: 60px;
   margin-top: 60px;
 }
 
@@ -183,7 +182,7 @@ p.construction-block-text  {
 div.aesthetics-block {
   background: rgb(1,0,0,1);
   background-image: 
-  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  linear-gradient(to right, rgb(1,0,0,1) 5%,rgb(0.1,0,0,0)),
   url("../imgs/Aesthetics-min.png");
   background-position: top right;
   height: 411px;
@@ -196,7 +195,7 @@ div.aesthetics-block {
 
 h1.aesthetics-block-head  {
   color:white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Encode Sans', sans-serif;
   font-weight: 800;
   font-size: 48px;
   margin-left: 60px;
@@ -230,7 +229,7 @@ footer {
   text-indent: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: #333333;
-  padding: 15px 23px;
+  padding: 15px 0px;
 }
 
 footer p {

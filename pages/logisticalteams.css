@@ -109,7 +109,7 @@ End of CSS for header
 div.outreach-block {
   background: rgb(1,0,0,1);
   background-image: 
-  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  linear-gradient(to right, rgb(1,0,0,1) 20% ,rgb(0.1,0,0,0)),
   url("../imgs/Outreach-min.png");
   background-position: top right;
   height: 500px;
@@ -122,7 +122,7 @@ div.outreach-block {
 
 h1.outreach-block-head  {
   color:white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Encode Sans', sans-serif;
   font-weight: 800;
   font-size: 48px;
   margin-left: 60px;
@@ -156,13 +156,13 @@ div.competition-block {
 }
 
 h1.competition-block-head  {
+  text-align: right;
   position: relative;
-  /*float: right;*/
   color:white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Encode Sans', sans-serif;
   font-weight: 800;
   font-size: 48px;
-  margin-left: 60px;
+  margin-right: 60px;
 }
 
 p.competition-block-text  {
@@ -182,7 +182,7 @@ p.competition-block-text  {
 div.finance-block {
   background: rgb(1,0,0,1);
   background-image: 
-  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  linear-gradient(to right, rgb(1,0,0,1) 5% ,rgb(0.1,0,0,0)),
   url("../imgs/Finance-min.png");
   background-position: top right;
   height: 411px;
@@ -195,7 +195,7 @@ div.finance-block {
 
 h1.finance-block-head  {
   color:white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Encode Sans', sans-serif;
   font-weight: 800;
   font-size: 48px;
   margin-left: 60px;
@@ -228,7 +228,7 @@ footer {
   text-indent: 60px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background: #333333;
-  padding: 15px 23px;
+  padding: 15px 0px;
 }
 
 footer p {
