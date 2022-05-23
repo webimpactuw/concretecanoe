@@ -35,7 +35,7 @@ CSS for header
 .dropdown-content a {
   float: none;
   line-height: 8px;
-  height: 5px;
+  height: 10px;
   width: 92px;
 }
 
@@ -72,6 +72,30 @@ header {
   background-size: 100% 100%;
 }
 
+header#technicalteams {
+  background-image: url("imgs/technicalteams-min.png");
+}
+
+header#handsonteams {
+  background-image: url("imgs/handsonteam.png");
+}
+
+header#blog {
+  background-image: url("imgs/blog.png");
+}
+
+header#past-canoes {
+  background-image: url("imgs/pastcanoes.png");
+}
+
+header#sponsors {
+  background-image: url("imgs/sponsors.png");
+}
+
+header#gallery {
+  background-image: url("imgs/gallery.png");
+}
+
 body {
   margin: 0;
 }
@@ -100,6 +124,10 @@ body {
 /*
 End of CSS for header
 */
+
+
+
+
 
 /*
 Start of CSS for home page
@@ -131,7 +159,7 @@ Start of CSS for home page
 
 .line{
   max-width: 778px;
-  margin-top: 40px; 
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -194,7 +222,7 @@ margin-top: -30px;
 text-align: center;
 color:#85754D ;
 font-weight: lighter;
-font-family: 'open Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-size: 20px
 }
 
@@ -203,7 +231,7 @@ font-size: 20px
   text-align: center;
   color:#4B2E83 ;
   font-weight: lighter;
-  font-family: 'open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px
   }
 
@@ -212,7 +240,7 @@ font-size: 20px
   text-align: center;
   color:#B7A57A ;
   font-weight: lighter;
-  font-family: 'open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px
 }
 
@@ -221,7 +249,7 @@ font-size: 20px
   text-align: left;
   color:Black ;
   font-weight: lighter;
-  font-family: 'open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px
 }
 
@@ -230,7 +258,7 @@ font-size: 20px
   color: #85754D;
   width: 222px;
   height: 66px;
-  font: 'open Sans', sans-serif;
+  font: 'Open Sans', sans-serif;
   font-size: 18px;
   border: #85754D solid 2px;
   margin-right: 25px;
@@ -243,7 +271,7 @@ font-size: 20px
   color: #4B2E83;
   width: 222px;
   height: 66px;
-  font: 'open Sans', sans-serif;
+  font: 'Open Sans', sans-serif;
   font-size: 18px;
   border: #4B2E83 solid 2px;
   margin-right: 25px;
@@ -256,7 +284,7 @@ font-size: 20px
   color: #B7A57A;
   width: 222px;
   height: 66px;
-  font: 'open Sans', sans-serif;
+  font: 'Open Sans', sans-serif;
   font-size: 18px;
   border: #B7A57A solid 2px;
   margin-right: 25px;
@@ -264,6 +292,465 @@ font-size: 20px
   margin-bottom: 10px;
 }
 
+
+
+
+
+/*
+  Start of CSS for Subteams and Past Canoes
+*/
+
+.section{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  background: rgb(1,0,0,1);
+  position: relative;
+  text-align: left;
+  font-size: 35px;
+  font-weight: 100;
+  margin-top: 100px;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+}
+
+.section .rightside .title{
+  text-align: right;
+  margin-bottom: 6px;
+  margin-top: 30px;
+  padding-right: 18px;
+  font-size: 42px;
+  font-family: "Encode Sans", sans-serif;
+}
+
+.section .rightside{
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  position: relative;
+  right: 25px;
+}
+.section .rightside p{
+  color:#fff;
+  position: relative;
+  text-align: right;
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.section .leftside .title{
+  margin-bottom: 4px;
+  margin-top: 30px;
+  font-size: 42px;
+  font-family: "Encode Sans", sans-serif;
+}
+.section .leftside{
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  position: relative;
+  left: 50px;
+}
+.section .leftside p{
+  color:#fff;
+  position: relative;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.section .mix-background{
+  background-image:
+  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url('imgs/MixDesign.png');
+  width: 400%;
+  height: 400px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 0px;
+  max-height: 510px;
+}
+
+.section .struct-background{
+  background-image:
+  linear-gradient(to right, rgb(0.1,0,0,0),rgb(1,0,0,1)),
+  url('imgs/StructuralAnalysis.png');
+  width: 400%;
+  height: 400px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 20px;
+  max-height: 510px;
+}
+
+.section .hull-background{
+  background-image:
+  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url('imgs/HullDesign.png');
+  width: 400%;
+  height: 400px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 0px;
+  max-height: 510px;
+}
+
+.section .paddling-background{
+  background-image:
+  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url('imgs/Paddling-min.png');
+  width: 400%;
+  height: 400px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 0px;
+  max-height: 510px;
+}
+
+.section .construction-background{
+  background-image:
+  linear-gradient(to right, rgb(0.1,0,0,0),rgb(1,0,0,1)),
+  url('imgs/Construction-min.png');
+  width: 400%;
+  height: 400px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 20px;
+  max-height: 510px;
+}
+
+.section .aesthetics-background{
+  background-image:
+  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url('imgs/Aesthetics-min.png');
+  width: 400%;
+  height: 400px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 0px;
+  max-height: 510px;
+}
+
+.section .outreach-background{
+  background-image:
+  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url('imgs/Outreach-min.png');
+  width: 400%;
+  height: 400px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 0px;
+  max-height: 510px;
+}
+
+.section .comp-background{
+  background-image:
+  linear-gradient(to right, rgb(0.1,0,0,0),rgb(1,0,0,1)),
+  url('imgs/logisticalteamsgroup-min.png');
+  width: 400%;
+  height: 400px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 20px;
+  max-height: 510px;
+}
+
+.section .finance-background{
+  background-image:
+  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url('imgs/Finance-min.png');
+  width: 400%;
+  height: 400px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 0px;
+  max-height: 510px;
+}
+
+.section .grandsockeye-background{
+  background-image:
+  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url('imgs/grandsockeye-min.png');
+  width: 400%;
+  height: 400px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 0px;
+  max-height: 510px;
+}
+
+.section .incalmo-background{
+  background-image:
+  linear-gradient(to right, rgb(0.1,0,0,0),rgb(1,0,0,1)),
+  url('imgs/incalmo-min.png');
+  width: 400%;
+  height: 400px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 20px;
+  max-height: 510px;
+}
+
+.section .skybeam-background{
+  background-image:
+  linear-gradient(to right, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url('imgs/skybeam-min.png');
+  width: 400%;
+  height: 400px;
+  background-size: 100% 100%;
+  color: white;
+  padding: 0px;
+  max-height: 510px;
+}
+
+/*
+  End of CSS for Subteams
+*/
+
+
+
+
+/*
+  Start of Blog CSS
+*/
+.UpdatesTitle{
+  margin-top: 18px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 48px
+}
+.DivBack{
+  background-color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.WhiteBody{
+  margin-top: 0px;
+  text-align: left;
+  color:white ;
+  font-weight: lighter;
+  font-family: 'open Sans', sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+
+}
+.WhiteUpdates{
+  margin-top: 0px;
+  text-align: center;
+  color:white ;
+  font-weight: lighter;
+  font-family: 'open Sans', sans-serif;
+  font-size: 20px;
+}
+.WhiteSmall{
+  margin-top: 0px;
+  text-align: left;
+  color:white ;
+  font-weight: lighter;
+  font-family: 'open Sans', sans-serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+
+}
+
+.width{
+  color: white;
+  max-width: 1143px;
+  margin: 0px auto;
+}
+
+.width2{
+  color: white;
+  max-width: 778px;
+  margin: 0px auto;
+}
+
+.line{
+  max-width: 778px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.box{
+  max-width: 700px;
+  border: 10px solid #4B2E83;
+  padding: 40px;
+  margin: 20px;
+  background-color: white;
+  color: black;
+  object-position: center;
+}
+.BlackBody{
+  margin-top: 0px;
+  text-align: left;
+  color:Black ;
+  font-weight: lighter;
+  font-family: 'open Sans', sans-serif;
+  font-size: 20px
+}
+.PurpleTitle{
+  margin-top: 18px;
+  text-align: center;
+  color: #4B2E83;
+  font-weight: bolder;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 35px
+}
+
+.Video{
+ text-align: center;
+ margin-top: 18px;
+ margin-bottom: 18px;
+}
+
+.YellowSubtitle{
+  margin-top: 18px;
+  text-align: left;
+  color:#B7A57A ;
+  font-weight: bolder;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 24px
+}
+/*
+  End of Blog CSS
+*/
+
+
+
+
+/*
+  Start of CSS for Sponsors
+*/
+
+.description {
+  max-width: 100%;
+  margin-top: 3%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.donors {
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 3%;
+  gap: 5%;
+}
+
+/*
+  End of CSS for Sponsors
+*/
+
+
+
+
+/*
+  Start of CSS for Gallery
+*/
+
+.gallery {
+  background-color: black;
+  padding-top: 6vh;
+  padding-bottom: 6vh;
+  width: 100%;
+}
+
+.p1 {
+  height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 3% 3%;
+}
+
+.p0 {
+  position: relative;
+  height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.p2 {
+  position: relative;
+  height: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: flex-end;
+  flex-direction: row;
+  margin-top: -13vh;
+}
+
+.side {
+  display: grid;
+  grid-template-columns: 0.45fr 1fr;
+  column-gap: 5ch;
+  width: 100%;
+  height:100%;
+  padding: 2.5%;
+}
+
+.soup {
+  height:100%;
+  width: 100%;
+  align-content: center;
+}
+
+.p5 > img {
+  height: 73vh;
+  width: auto;
+}
+
+.p4 > img {
+  height: 32vh;
+  width: auto;
+}
+
+.art {
+  width: 21vw;
+  height: auto;
+}
+
+.middle {
+  width: 35%;
+  height: auto;
+}
+
+.long {
+  height: auto;
+  width: 25vw;
+}
+
+ .p5, .p4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3% 5%;
+}
+
+.gallery > img {
+  width: 30%;
+}
+
+/*
+  End of CSS for Gallery
+*/
 
 /*
   Footer CSS
@@ -274,7 +761,7 @@ footer {
   max-width: 100%;
   height: 83px;
   text-indent: 60px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: #333333;
   margin: 0;
   padding: 15px 23px;
@@ -283,6 +770,10 @@ footer {
 footer p {
   margin-top: 29px;
   color: #FFFFFF;
+}
+
+footer a {
+  color: white;
 }
 /*
   End of Footer CSS
