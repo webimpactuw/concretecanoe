@@ -111,7 +111,7 @@ End of CSS for header
   font-size: 35px;
   font-weight: 500;
   margin-top: 60px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   max-height: 550px;
@@ -127,7 +127,7 @@ End of CSS for header
   color:#fff;
   position: relative;
   /* left: 10px; */
-  font-size: 25px;
+  font-size: 20px;
 }
 .sockeye .sockeye-content{
   background-image:
@@ -148,11 +148,10 @@ End of CSS for header
   color: #fff;
   background: rgb(1,0,0,1);
   position: relative;
-  text-align: right;
   font-size: 35px;
   font-weight: 500;
   margin-top: 60px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   max-height: 500px;
@@ -168,7 +167,8 @@ End of CSS for header
   color:#fff;
   position: relative;
   /* left: 10px;  */
-  font-size: 25px;
+  font-size: 20px;
+  text-align: right;
 }
 .incalmo .incalmo-content{
   background-image:
@@ -193,7 +193,7 @@ End of CSS for header
   font-size: 35px;
   font-weight: 500;
   margin-top: 60px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
   max-height: 500px;
@@ -212,7 +212,7 @@ End of CSS for header
   color:#fff;
   position: relative;
   /* left: 10px; */
-  font-size: 25px;
+  font-size: 20px;
 }
 .skybeam .skybeam-content{
   background-image:

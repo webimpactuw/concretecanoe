@@ -30,18 +30,18 @@ CSS for header
 
 .dropdown-content {
   display: none;
-  position: absolute;
 }
 
 .dropdown-content a {
   float: none;
-  overflow: hidden;
+  line-height: 8px;
+  height: 7px;
+  width: 92px;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  position: absolute;
 }
 
 .top-header {
