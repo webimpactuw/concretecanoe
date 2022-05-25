@@ -1,0 +1,235 @@
+/*
+CSS for header
+*/
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content a {
+  float: none;
+  overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: gainsboro;
+}
+
+.top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-header img {
+  max-width: 100px;
+  height: auto;
+  padding: 0;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+header > p {
+  margin-top: 100px;
+  text-align: center;
+  color:white;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 90px;
+}
+
+header {
+  background-image: url("../imgs/blog.png");
+  height: 600px;
+  background-size: 100% 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar ul li a {
+  transition: all .3s;
+}
+
+.navbar ul li a:after {
+  text-align: left;
+  margin: 0;
+  opacity: 0;
+}
+.navbar ul li a:hover {
+  color:gray;
+  z-index: 1;
+}
+.navbar ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+/*
+End of CSS for header
+*/
+
+/*
+  Footer CSS
+*/
+footer {
+  position: relative;
+  bottom: 0;
+  max-width: 100%;
+  height: 83px;
+  text-indent: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #333333;
+  margin: 0;
+  padding: 15px 23px;
+}
+
+
+footer p {
+  margin-top: 29px;
+  color: #FFFFFF;
+}
+/*
+  End of Footer CSS
+*/
+
+/*
+  Start of Contents CSS
+*/
+.UpdatesTitle{
+  margin-top: 18px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 48px
+}
+.DivBack{
+  background-color: black;
+}
+
+.WhiteBody{
+  margin-top: 0px;
+  text-align: left;
+  color:white ;
+  font-weight: lighter;
+  font-family: 'open Sans', sans-serif;
+  font-size: 20px;
+  margin-bottom: 5px;
+  
+}
+.WhiteUpdates{
+  margin-top: 0px;
+  text-align: center;
+  color:white ;
+  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+.WhiteSmall{
+  margin-top: -10px;
+  text-align: left;
+  color:white ;
+  font-weight: lighter;
+  font-family: 'open Sans', sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.width{
+  color: white;
+  max-width: 1143px;
+  margin: 0px auto;
+}
+
+.width2{
+  color: white;
+  max-width: 778px;
+  margin: 0px auto;
+}
+
+.line{
+  max-width: 778px;
+  margin-top: 40px; 
+  margin-bottom: 40px;
+}
+
+.box{
+  max-width: 700px;
+  border: 10px solid #4B2E83;
+  padding: 40px;
+  margin: 20px;
+  background-color: white;
+  color: black;
+  object-position: center;
+}
+
+
+.BlackBody{
+  margin-top: 0px;
+  text-align: left;
+  color:Black ;
+  font-weight: lighter;
+  font-family: 'open Sans', sans-serif;
+  font-size: 20px
+}
+.PurpleTitle{
+  margin-top: 18px;
+  text-align: center;
+  color: #4B2E83;
+  font-weight: bolder;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 35px
+}
+
+.Video{
+ text-align: center;
+ margin-top: 18px;
+ margin-bottom: 18px;
+}
+
+.YellowSubtitle{
+  margin-top: 18px;
+  text-align: left;
+  color:#B7A57A ;
+  font-weight: bolder;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 24px
+}
+
+img{
+  max-width: 775px;
+  max-height: 80%;
+}

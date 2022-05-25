@@ -1,0 +1,240 @@
+/*
+CSS for header
+*/
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown-content a {
+  float: none;
+  overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Encode Sans', sans-serif;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: gainsboro;
+}
+
+.top-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-header img {
+  max-width: 100px;
+  height: auto;
+  padding: 0;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+header > p {
+  margin-top: 100px;
+  text-align: center;
+  color:white;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 90px;
+}
+
+header {
+  background-image: url("../imgs/logisticalteams.png");
+  height: 600px;
+  background-size: 100% 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar ul li a {
+  transition: all .3s;
+}
+
+.navbar ul li a:after {
+  text-align: left;
+  margin: 0;
+  opacity: 0;
+}
+.navbar ul li a:hover {
+  color:gray;
+  z-index: 1;
+}
+.navbar ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+
+/*
+End of CSS for header
+*/
+
+/*
+ Body CSS
+*/
+
+/* OUTREACH */
+div.outreach-block {
+  background: rgb(1,0,0,1);
+  background-image: 
+  linear-gradient(to right, rgb(1,0,0,1) 20% ,rgb(0.1,0,0,0)),
+  url("../imgs/Outreach-min.png");
+  background-position: top right;
+  height: 500px;
+  background-size: 70% 100%;
+  color: white;
+  padding: 20px;
+  max-height: 500px;
+  background-repeat: no-repeat;
+}
+
+h1.outreach-block-head  {
+  color:white;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  margin-left: 60px;
+}
+
+p.outreach-block-text  {
+  float: left;
+  color:white;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  text-size-adjust: none;
+  font-size: 20px;
+  margin-left: 60px;
+  max-width: 550px;
+  max-height: 268px;
+}
+
+/* COMPETITION */ 
+div.competition-block {
+  background: rgb(1,0,0,1);
+  background-image: 
+  linear-gradient(to left, rgb(1,0,0,1),rgb(0.1,0,0,0)),
+  url("../imgs/logisticalteamsgroup-min.png");
+  background-position: top left;
+  height: 500px;
+  background-size: 60% 110%;
+  color: white;
+  padding: 20px;
+  max-height: 500px;
+  background-repeat: no-repeat;
+}
+
+h1.competition-block-head  {
+  text-align: right;
+  position: relative;
+  color:white;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  margin-right: 60px;
+}
+
+p.competition-block-text  {
+  float: right;
+  color:white;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  text-size-adjust: none;
+  font-size: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+  max-width: 550px;
+  max-height: 353px;
+}
+
+/*FINANCE*/
+div.finance-block {
+  background: rgb(1,0,0,1);
+  background-image: 
+  linear-gradient(to right, rgb(1,0,0,1) 5% ,rgb(0.1,0,0,0)),
+  url("../imgs/Finance-min.png");
+  background-position: top right;
+  height: 411px;
+  background-size: 60% 120%;
+  color: white;
+  padding: 20px;
+  max-height: 411px;
+  background-repeat: no-repeat;
+}
+
+h1.finance-block-head  {
+  color:white;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  margin-left: 60px;
+}
+
+p.finance-block-text  {
+  float: left;
+  color:white;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  text-size-adjust: none;
+  font-size: 20px;
+  margin-left: 60px;
+  max-width: 550px;
+  max-height: 168px;
+}
+
+/*
+ End of Body CSS
+*/
+
+/*
+  Footer CSS
+*/
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 83px;
+  text-indent: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #333333;
+  padding: 15px 0px;
+}
+
+footer p {
+  margin-top: 29px;
+  color: #FFFFFF;
+}
+/*
+  End of Footer CSS
+*/
